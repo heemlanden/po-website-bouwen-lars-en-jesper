@@ -1,0 +1,170 @@
+.lemon-regular {
+  font-family: "Lemon", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.anton-regular {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.jost-regular {
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 720;
+  font-style: normal;
+}
+
+p {
+  color: dimgray; 
+  font-size: 22px;
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 720;
+  font-style: normal;
+}
+
+.mark-oranje {
+    color:coral;
+    background: none;
+}
+
+.mark-blauw {
+    color:cornflowerblue;
+    background: none;
+}
+li {
+  color:#323232;
+  font-size: 17px;
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+h1 {
+ margin: auto;
+  background-color: #ff9974;
+  fill-opacity: 80;
+  border-radius: 20px;
+  width: 450px;
+  
+}
+
+ul {
+  text-align-last: left;
+}
+
+table {
+  border-collapse: collapse;
+  width: 75%;
+  color: #343434
+
+}
+
+th,td{
+  text-align: left;
+  padding: 3px
+}
+
+tr, td {
+  height: 15px;
+ font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: italic;
+}
+
+
+th{
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 9600;
+  font-style:normal;
+  font-size: 17px;
+  
+}
+
+table, th, td {
+  border: 2px solid lightgrey;
+  border-collapse: collapse;
+
+}
+
+th, td {
+  background-color:#ff9974;
+  border-radius: 7px;
+}
+
+.collapsible {
+  background-color: #ff9974;
+  cursor: pointer;
+  padding: 9px;
+  width: 50%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 18px;
+  border-radius: 15px;
+  
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 720;
+  font-style: normal;
+  color: beige
+  
+}
+
+
+.active, .collapsible:hover {
+  background-color:lightgrey
+}
+
+
+.content {
+  padding: 0 10px;
+  display: none;
+  overflow: hidden;
+  background-color: lightgray;
+  border-radius: 15px;
+  font-size: 18px;
+ 
+}
+
+.collapsible::after {
+  content: '\02795'; 
+  font-size: 13px;
+  color: white;
+  float: right;
+  margin-left: 5px;
+}
+
+
+.collapsible.active::after {
+  content: '\2796'; 
+}
+
+a:link, a:visited {
+  background-color: #ff9974;
+  color: beige;
+  
+  position:relative;
+  margin-top:25%;
+  
+  padding: 9px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 15px;
+
+  font-size: 18px;
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 720;
+  font-style: normal;
+}
+
+a:hover, a:active {
+  background-color: lightgray;
+}
