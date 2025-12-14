@@ -18,8 +18,20 @@
 div {
   margin: auto;
   background-color: lightcoral;
-  opacity: 70;
-  border-radius: 10px
+  opacity: 0.7;
+  border-radius: 10px;
   
   
+}
+.school-img {
+  margin-left: 400px;
+  margin-top: -250px;
+}
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 6px;
 }
