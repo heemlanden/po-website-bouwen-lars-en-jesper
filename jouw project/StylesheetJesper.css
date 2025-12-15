@@ -1,3 +1,4 @@
+
 .lemon-regular {
   font-family: "Lemon", serif;
   font-weight: 400;
@@ -5,7 +6,7 @@
 }
 .anton-regular {
   font-family: "Anton", sans-serif;
-  font-weight: 400;
+  font-weight: 600;
   font-style: normal;
 }
 
@@ -41,6 +42,30 @@ li {
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
+}
+
+#Startpagina {
+ margin: auto;
+  background-color: #ff9974;
+  fill-opacity: 80;
+  border-radius: 20px;
+  width: 450px;
+  font-family: "Anton", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  text-align: center;
+  color: dimgrey;
+}
+  aside {
+  width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  padding-bottom: 20px;
+  float: right;
+  font-style: italic;
+  background-color: lightgrey;
+    border-radius: 12px;
+    margin-top: 10%;
 }
 
 h1 {
