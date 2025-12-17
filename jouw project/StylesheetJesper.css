@@ -193,3 +193,10 @@ a:link, a:visited {
 a:hover, a:active {
   background-color: lightgray;
 }
+
+img {
+  width: 175px;
+  margin-top: 115px;
+  margin-left: 650px;
+  border-radius: 20px
+}
