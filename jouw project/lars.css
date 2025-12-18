@@ -1,0 +1,48 @@
+a:link, a:visited {
+  background-color: #ff9974;
+  color: beige;
+  position:relative;
+  margin-top:5%;
+
+  padding: 9px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 25px;
+
+  font-size: 18px;
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 720;
+  font-style: normal;
+}
+
+
+.backgroundcolor {
+ background-color: beige;
+}
+
+
+.outfit-regular {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+
+
+.saira-regular {
+  font-family: "Saira", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+.backgroundcolor2 {
+background-color: #ff9974;
+border-radius: 25px
+}

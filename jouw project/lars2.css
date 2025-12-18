@@ -4,9 +4,20 @@
   font-style: normal;
 }
 
-.color {
-    color: red !important;
+
+.dancing-script {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
+
+
+.backgroundcolor2 {
+  background-color: #ff9974;
+  border-radius: 25px
+}
+
 
 .dancing-script-regular {
   font-family: "Dancing Script", cursive;
@@ -15,23 +26,68 @@
   font-style: normal;
 }
 
-div {
-  margin: auto;
-  background-color: lightcoral;
-  opacity: 0.7;
-  border-radius: 10px;
-  
-  
-}
+
 .school-img {
-  margin-left: 400px;
-  margin-top: -250px;
+  margin-left: 500px;
+  margin-top: -300px;
 }
+
+
 table {
   border-collapse: collapse;
 }
 
+
 th, td {
   border: 1px solid black;
   padding: 6px;
+}
+
+
+td {
+  background-color: #ff9974;
+  border-radius: 6px
+}
+
+
+th {
+  background-color: #ff9970;
+  border-radius: 6px
+}
+
+
+a:link, a:visited {
+  background-color: #ff9974;
+  color: beige;
+  position:relative;
+  margin-top:5%;
+
+  padding: 9px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 25px;
+
+  font-size: 18px;
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 720;
+  font-style: normal;
+}
+
+
+.color2 {
+  color: #ff9974;
+}
+
+
+.backgroundcolor {
+  background-color: beige;
+}
+
+
+.anton-regular {
+  font-family: "Anton", sans-serif;
+  font-weight: 600;
+  font-style: normal;
 }
