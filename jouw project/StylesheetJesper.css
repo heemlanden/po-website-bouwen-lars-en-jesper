@@ -1,4 +1,3 @@
-
 .lemon-regular {
   font-family: "Lemon", serif;
   font-weight: 400;
@@ -18,7 +17,7 @@
 }
 
 p {
-  color: dimgray; 
+  color: dimgray;
   font-size: 22px;
   font-family: "Jost", sans-serif;
   font-optical-sizing: auto;
@@ -27,16 +26,16 @@ p {
 }
 
 .mark-oranje {
-    color:coral;
-    background: none;
+  color: coral;
+  background: none;
 }
 
 .mark-blauw {
-    color:cornflowerblue;
-    background: none;
+  color: cornflowerblue;
+  background: none;
 }
 li {
-  color:#323232;
+  color: #323232;
   font-size: 17px;
   font-family: "Josefin Sans", sans-serif;
   font-optical-sizing: auto;
@@ -45,7 +44,7 @@ li {
 }
 
 #Startpagina {
- margin: auto;
+  margin: auto;
   background-color: #ff9974;
   fill-opacity: 80;
   border-radius: 20px;
@@ -56,25 +55,26 @@ li {
   text-align: center;
   color: dimgrey;
 }
-  aside {
-  width: 30%;
+.Specifiek {
+  width: 225px;
   padding-left: 15px;
   margin-left: 15px;
   padding-bottom: 20px;
   float: right;
   font-style: italic;
   background-color: lightgrey;
-    border-radius: 12px;
-    margin-top: 10%;
+  border-radius: 12px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center
 }
 
 h1 {
- margin: auto;
+  margin: auto;
   background-color: #ff9974;
   fill-opacity: 80;
   border-radius: 20px;
   width: 450px;
-  
 }
 
 ul {
@@ -84,41 +84,42 @@ ul {
 table {
   border-collapse: collapse;
   width: 75%;
-  color: #343434
-
+  color: #343434;
 }
 
-th,td{
+th,
+td {
   text-align: left;
-  padding: 3px
+  padding: 3px;
 }
 
-tr, td {
+tr,
+td {
   height: 15px;
- font-family: "Josefin Sans", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 200;
   font-style: italic;
 }
 
-
-th{
+th {
   font-family: "Josefin Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 9600;
-  font-style:normal;
+  font-style: normal;
   font-size: 17px;
-  
 }
 
-table, th, td {
+table,
+th,
+td {
   border: 2px solid lightgrey;
   border-collapse: collapse;
-
 }
 
-th, td {
-  background-color:#ff9974;
+th,
+td {
+  background-color: #ff9974;
   border-radius: 7px;
 }
 
@@ -132,20 +133,18 @@ th, td {
   outline: none;
   font-size: 18px;
   border-radius: 15px;
-  
+
   font-family: "Jost", sans-serif;
   font-optical-sizing: auto;
   font-weight: 720;
   font-style: normal;
-  color: beige
-  
+  color: beige;
 }
 
-
-.active, .collapsible:hover {
-  background-color:lightgrey
+.active,
+.collapsible:hover {
+  background-color: lightgrey;
 }
-
 
 .content {
   padding: 0 10px;
@@ -154,31 +153,33 @@ th, td {
   background-color: lightgray;
   border-radius: 15px;
   font-size: 18px;
- 
 }
 
 .collapsible::after {
-  content: '\02795'; 
+  content: "\02795";
   font-size: 13px;
   color: white;
   float: right;
   margin-left: 5px;
 }
 
-
 .collapsible.active::after {
-  content: '\2796'; 
+  content: "\2796";
 }
 
-a:link, a:visited {
+a:link,
+a:visited {
   background-color: #ff9974;
   color: beige;
-  
-  position:relative;
-  margin-top:25%;
-  
-  padding: 9px 25px;
+
+  position: relative;
+  top: 30px
+  margin-bottom: 30px;
+  height: 75px;
+  width: 200px;
+
   text-align: center;
+  align-content: center;
   text-decoration: none;
   display: inline-block;
   border-radius: 15px;
@@ -190,13 +191,94 @@ a:link, a:visited {
   font-style: normal;
 }
 
-a:hover, a:active {
+a:hover,
+a:active {
   background-color: lightgray;
 }
 
 img {
   width: 175px;
-  margin-top: 115px;
-  margin-left: 650px;
-  border-radius: 20px
+  margin-top: 30px;
+  position: relative;
+  left: 45%;
+  border-radius: 20px;
+}
+
+body {
+  background-color: beige;
+  transition: 0.3s all;
+}
+h2 {
+  color: #000;
+}
+button {
+  border: none;
+  padding: 8px;
+  background-color: #3a3a3a;
+  color: beige;
+  transition: 0.3s all;
+  border-radius: 15px;
+  float: right;
+}
+.dark {
+  background-color: #3a3a3a;
+}
+.dark h2 {
+  color: #3a3a3a;
+}
+
+.dark button {
+  background-color: beige;
+  color: #3a3a3a;
+}
+.dark a:link,
+.dark a:visited {
+  background-color: #5072a7;
+  color: beige;
+}
+
+.dark a:hover,
+.dark a:active {
+  background-color: #666;
+}
+.dark h1 {
+  margin: auto;
+  background-color: #5072a7;
+  color: beige;
+  fill-opacity: 80;
+  border-radius: 20px;
+  width: 450px;
+}
+.dark header {
+  color: beige;
+}
+
+header {
+  color: dimgray;
+}
+
+.Profielpaginas {
+  width: 225px;
+  padding-left: 15px;
+  margin-left: 15px;
+  padding-bottom: 20px;
+  float: left;
+  font-style: italic;
+  background-color: lightgrey;
+  border-radius: 12px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.dark #startpagina {
+  margin: auto;
+  background-color: #5072a7;
+  fill-opacity: 80;
+  border-radius: 20px;
+  width: 450px;
+  font-family: "Anton", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  text-align: center;
+  color: beige;
 }

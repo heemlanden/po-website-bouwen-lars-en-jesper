@@ -12,3 +12,17 @@ for (i = 0; i < coll.length; i++) {
     }
   });
 }
+
+function AndereModus() {
+  document.body.classList.toggle("dark");
+  var isDark = document.body.classList.contains("dark");
+  
+  console.log(isDark);
+  //if(localStorage.getItem("mode") == null)
+  //{
+  //  window.alert("help mij asebief");
+  //  localStorage.setItem("mode", document.body.classList.item('dark'));
+  //}
+  //window.alert(localStorage.getItem("mode"));
+  //localStorage.setItem("mode", document.body.classList.item('dark'));
+} 
