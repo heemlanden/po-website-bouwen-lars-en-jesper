@@ -4,7 +4,6 @@
   font-style: normal;
 }
 
-
 .dancing-script {
   font-family: "Dancing Script", cursive;
   font-optical-sizing: auto;
@@ -12,12 +11,10 @@
   font-style: normal;
 }
 
-
 .backgroundcolor2 {
   background-color: #ff9974;
-  border-radius: 25px
+  border-radius: 25px;
 }
-
 
 .dancing-script-regular {
   font-family: "Dancing Script", cursive;
@@ -26,41 +23,37 @@
   font-style: normal;
 }
 
-
 .school-img {
   margin-left: 500px;
-  margin-top: -300px;
+  margin-top: -390px;
 }
-
 
 table {
   border-collapse: collapse;
 }
 
-
-th, td {
+th,
+td {
   border: 1px solid black;
   padding: 6px;
 }
 
-
 td {
   background-color: #ff9974;
-  border-radius: 6px
+  border-radius: 6px;
 }
-
 
 th {
   background-color: #ff9970;
-  border-radius: 6px
+  border-radius: 6px;
 }
 
-
-a:link, a:visited {
+a:link,
+a:visited {
   background-color: #ff9974;
   color: beige;
-  position:relative;
-  margin-top:5%;
+  position: relative;
+  margin-top: 5%;
 
   padding: 9px 25px;
   text-align: center;
@@ -75,19 +68,53 @@ a:link, a:visited {
   font-style: normal;
 }
 
-
 .color2 {
   color: #ff9974;
 }
-
 
 .backgroundcolor {
   background-color: beige;
 }
 
-
 .anton-regular {
   font-family: "Anton", sans-serif;
   font-weight: 600;
   font-style: normal;
+}
+
+body {
+  background-color: #fff;
+  padding-top: 100px;
+  font-family: sans-serif;
+}
+
+.animated-text {
+  font-size: 50;
+  color: red;
+  animation: colorchange 2s infinite;
+}
+
+@keyframes colorchange {
+  0% {
+    color: red;
+  }
+  25% {
+    color: yellow;
+  }
+  50% {
+    color: green;
+  }
+  75% {
+    color: blue;
+  }
+  100% {
+    color: red;
+  }
+}
+mark {
+  background: none;
+}
+
+.plek {
+  margin-top: -100px;
 }
