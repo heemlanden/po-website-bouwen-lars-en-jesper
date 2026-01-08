@@ -46,3 +46,62 @@ a:link, a:visited {
 background-color: #ff9974;
 border-radius: 25px
 }
+
+button {
+  border: none;
+  padding: 8px;
+  background-color: #3a3a3a;
+  color: beige;
+  transition: 0.3s all;
+  border-radius: 15px;
+  float: right;
+}
+
+body {
+  background-color: beige;
+  transition: 0.3s all;
+}
+
+.dark {
+  background-color: #3a3a3a;
+  color: beige;
+}
+
+.anton-regular {
+  font-family: "Anton", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.dark a:link,
+.dark a:visited {
+  background-color: #5072a7;
+  color: beige;
+}
+
+  .dark a:hover,
+  .dark a:active {
+  background-color: #666; 
+  }
+
+.dark th, .dark td {
+background-color:  #5072a7
+}
+
+.dark button {
+  background-color: beige;
+  color: #3a3a3a;
+}
+
+.dark h1
+{
+background-color: #5072a7;
+border-radius: 15px
+}
+
+.dark h3 {
+  color: beige;
+}
+
+.dark backgroundcolor2
+{background-color: beige;}

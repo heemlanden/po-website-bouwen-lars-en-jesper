@@ -173,7 +173,7 @@ a:visited {
   color: beige;
 
   position: relative;
-  top: 30px
+  top: 30px;
   margin-bottom: 30px;
   height: 75px;
   width: 200px;
@@ -220,7 +220,7 @@ button {
   border-radius: 15px;
   float: right;
 }
-.dark {
+ .dark {
   background-color: #3a3a3a;
 }
 .dark h2 {
@@ -281,4 +281,8 @@ header {
   font-style: normal;
   text-align: center;
   color: beige;
+}
+
+.dark h6 {
+  background-color: #5072a7;
 }
